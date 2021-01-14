@@ -6,10 +6,12 @@ function Home(){
   return (
     <div id="home">
       <br/>
-      <img src={ require('./../images/logo.png')} />
-      <div className="logo-text">
-        <h3>Just Do it</h3>
+      <div className="logo-image">
+      <img src={ require('./../images/logo.png')} /><br/>
       </div>
+      {/* <div className="logo-text">
+        <h3>Just Do it</h3>
+      </div> */}
     </div>
   );
 }

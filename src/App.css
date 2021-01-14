@@ -2,14 +2,11 @@ body {
   min-height: 100% !important;
 }
 
-img {
-  height: 660px;
-  text-align: center;
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.logo-image {
+  top: 86%;
+  left: 15%;
 }
+
 
 .logo-text {
   text-align: center;
@@ -23,7 +20,8 @@ img {
 
 #home {
   background-image: url('./images/nike01.jpg');
-  height: 100%;
+  background-color: #cccccc;
+  height: 800px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -4,8 +4,12 @@ function Home(){
 
   
   return (
-    <div>
-      <h1>Welcome to Home</h1>
+    <div id="home">
+      <br/>
+      <img src={ require('./../images/logo.png')} />
+      <div className="logo-text">
+        <h3>Just Do it</h3>
+      </div>
     </div>
   );
 }
